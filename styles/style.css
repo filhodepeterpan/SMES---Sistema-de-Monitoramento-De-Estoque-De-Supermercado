@@ -1,0 +1,130 @@
+@import url(root.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: var(--cor-bg);
+    font-family: var(--fonte-padrao);
+    color: var(--cor-fonte);
+}
+header{
+    background-color: var(--cor-constrate-bg);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+    padding: 1rem 0 1rem 0;
+}
+input{
+    width: 100%;
+    padding: 0.25rem 20rem 0.25rem 0.5rem;
+    outline: none;
+    border: var(--borda-padrao);
+    border-radius: var(--arredondamento);
+}
+input::placeholder{
+    font-style: italic;
+}
+button{
+    padding: 0.65rem 0 0.65rem 0;
+    color: var(--cor-destaque);
+    background-color: var(--cor-bg);
+    border-radius: var(--arredondamento);
+    border: 1px solid var(--cor-destaque);
+    font-weight: 600;
+    outline: none;  
+}
+button #text{
+    display: inline;
+}
+button #icon{
+    display: none;
+}
+#botao__estoque{
+    width: 100%;
+}
+#botao__modo__escuro{
+    padding: 0 1rem 0 1rem;
+}
+button:hover{
+    background-color: var(--cor-destaque);
+    color: #ffffff;
+    cursor: pointer;
+}
+#titulo{
+    color: var(--cor-destaque);
+}
+.adm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email{
+    color: var(--cor-fonte-cinza);
+}
+#foto__de__perfil{
+    margin: 0 0 0 1rem;
+}
+#foto__de__perfil__escuro{
+    margin: 0 0 0 1rem;
+    display: none;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+.relatorio, .formulario{
+    margin: 3rem 0.5rem 0 0.5rem;
+}
+.relatorio{
+    padding: 0 1rem 10rem 1rem;
+}
+#relatorio__nome{
+    padding: 0 25rem 0 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--cor-destaque);
+    color: var(--cor-destaque); 
+}
+.formulario{
+    padding: 0 1rem 0 1rem;
+}
+.formulario__nome{
+    margin: 0 0 1rem 0;
+}
+#carrinho__de__compras{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 1rem 7rem 1.5rem 0;
+    fill: var(--cor-destaque);
+}
+#situacao__de__estoque{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.estoque__esgotado {
+    color: var(--cor-urgente)
+}
+.estoque__critico {
+    color: var(--cor-critica);
+}
+.estoque__baixo {
+    color: var(--cor-atencao);
+}
+.estoque__adequado {
+    color: var(--cor-ok);
+}
+.informacoes__insuficientes {
+    color: var(--cor-fonte-cinza);
+}
+
+

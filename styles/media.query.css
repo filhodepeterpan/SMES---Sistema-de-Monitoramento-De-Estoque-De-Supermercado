@@ -1,0 +1,128 @@
+@import url(root.css);
+
+/* Celulares */
+@media (max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-size: 0.7rem;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        padding: 0.25rem 0 0.25rem 0.5rem;
+    }
+    button{
+        background-color: var(--cor-destaque);
+        color: #ffffff;
+    }
+    button #text{
+        display: none;
+    }
+    button #icon{
+        display: inline;
+    }
+    #icon path{
+        fill: var(--cor-destaque);
+    }
+    #botao__modo__escuro{
+        padding: 0;
+        margin: 0 2rem 0 2rem;
+        background-color: var(--cor-contraste-bg);
+        border: none;
+    }
+    nav{
+        align-items: center;
+    }
+    #titulo{
+        font-size: 1.1rem;
+        overflow-x: wrap;
+    }
+    #icon{
+        width: 30px;
+    }
+    .adm{
+        flex-direction: column-reverse;  
+        font-size: 0.6rem;
+    }
+    #foto__de__perfil, #foto__de__perfil__escuro{
+        padding: 0 0 0.2rem 0;
+        margin: 0;
+        width: 20px;
+    }
+    .relatorio, .formulario{
+        margin: 2rem 0.5rem 0 0.5rem;
+    }
+    .relatorio{
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    #relatorio__nome{
+        font-size: 1rem;
+        padding: 0;
+    }
+    #situacao__de__estoque{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .carrinho{
+        text-align: center;
+    }
+    #carrinho__de__compras{
+        position: relative;
+        margin: 0 auto;
+        padding: 0 0 2rem 0;
+        display: inline-block;
+        text-align: center;
+        width: 50px;
+    }   
+}
+
+/* Tablets */
+@media (max-width: 1024px) and (min-width: 600px){
+    *{
+        font-size: 1.3rem;
+    }
+    #titulo{
+        width: 80%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .adm{
+        font-size: 0.5rem;
+    }
+    #foto__de__perfil, #foto__de__perfil__escuro{
+        width: 50px;
+    }
+    #icon{
+        width: 70px;
+    }
+    .formulario{
+        padding-top: 1.1rem;
+    }
+    .relatorio{
+        padding-top: 1.8rem;
+    }
+    #relatorio__nome{
+        font-size: 1.6rem;
+    }
+    #carrinho__de__compras{
+        width: 80px;
+    }
+    #situacao__de__estoque{
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    button #text{
+        display: none;
+    }
+    button #icon{
+        display: inline;
+    }
+}

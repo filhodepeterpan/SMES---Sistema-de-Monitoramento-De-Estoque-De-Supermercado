@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/shopping-cart.ico">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.query.css">
+    <title>SMES</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="titulo">Monitoramento de Estoque</h1>
+            <button onclick="ativaModoEscuro()" id="botao__modo__escuro">
+                <svg id="icon" width="20px"viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>ic_fluent_dark_theme_24_regular</title>
+                    <desc>Created with Sketch.</desc>
+                    <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="ic_fluent_dark_theme_24_regular" fill-rule="nonzero">
+                            <path d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z" id="🎨-Color"> 
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+                <span id="text">Ativar Modo Escuro</span>
+            </button>
+            <div class="adm">
+                <p id="email">admin@estoque.com</p>
+                <img id="foto__de__perfil" src="./img/user-icon.png" width="40px">
+                <img id="foto__de__perfil__escuro" src="./img/user-icon-dark.png" width="40px">
+            </div>
+        </nav>
+   </header>
+   <main>
+        <div class="conteudo">
+            <div class="formulario">
+                <div class="formulario__nome">
+                    <label>Nome do produto:
+                    <br>
+                    <input id="nomeProduto" type="text" placeholder="Ex: Barra de Chocolate">
+                    <br>
+                </div>
+                <div class="formulario__nome">
+                    <label>Fornecedor:
+                    <br>
+                    <input id="fornecedor" type="text" placeholder="Ex: Nestlé">
+                    <br>
+                </div>
+                <div class="formulario__nome">
+                    <label>Preço unitário:
+                    <br>
+                    <input id="precoUnitario" type="text" placeholder="Ex: 6.99">
+                    <br>
+                </div>
+                <div class="formulario__nome">
+                    <label>Quantidade em estoque:
+                    <br>
+                    <input id="quantidadeEstoque" type="text" placeholder="Ex: 63">
+                    <br>
+                </div>
+                <div class="formulario__nome">
+                    <label>Quantidade mínima:
+                    <br>
+                    <input id="quantidadeMinima" type="text" placeholder="Ex: 100">
+                    <br>
+                </div>
+                <div class="formulario__nome">
+                    <label>Urgente:
+                    <br>
+                    <input id="urgencia" type="text" placeholder="Ex: V ou F">
+                    <br>
+                </div>
+                <br>
+                <button onclick="verificaEstoque()" id="botao__estoque">Verificar Estoque</button>
+            </div>
+            <div class="relatorio">
+                <p id="relatorio__nome">Relatório</p>
+                <br>
+                <p id="relatorio"></p>
+                <br>
+                <p id="situacao__de__estoque"></p>
+            </div>
+        </div>
+        <div class="carrinho">
+            <svg id="carrinho__de__compras" width="160"  alt="Carrinho de Compras" name="Crédito: fontawesome.com" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+        </div>
+   </main>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/modo.escuro.js"></script>
+</body>
+</html>

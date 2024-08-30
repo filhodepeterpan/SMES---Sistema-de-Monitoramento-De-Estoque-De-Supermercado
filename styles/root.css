@@ -1,0 +1,20 @@
+:root{
+    --cor-fonte: #000000;
+    --cor-bg: #f1efef;
+    --cor-constrate-bg: #e7e5e5 ;
+    --cor-fonte-cinza: #616161;
+    --cor-destaque: #7836dc;
+    --cor-destaque-light: #caa7ff;
+    --cor-urgente: #dc3546 ;
+    --cor-critica: #ff7438;
+    --cor-atencao: #eee600 ;
+    --cor-ok: #00d950;
+    --fonte-padrao: "Mangal";
+    --borda-padrao: 1px solid var(--cor-fonte-cinza);
+    --arredondamento: 4px;
+}
+
+@font-face{
+    font-family: "Mangal";
+    src: url(../fonts/mangal.ttf);
+}
