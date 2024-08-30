@@ -2,7 +2,7 @@
 ## Desenvolvido para o curso técnico de Informática para a Internet na ETEC de Praia Grande  
 &nbsp;
 
-**Link para o site**: <a href="https://smes-sistema-de-monitoramento-de-estoque-de-supermercado.vercel.app/" target="_blank">SMES</a>
+**Link para o site**: [SMES](https://smes-sistema-de-monitoramento-de-estoque-de-supermercado.vercel.app/)
 
 &nbsp;
 
