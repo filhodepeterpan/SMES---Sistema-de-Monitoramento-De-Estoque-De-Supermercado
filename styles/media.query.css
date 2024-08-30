@@ -81,7 +81,16 @@
         display: inline-block;
         text-align: center;
         width: 50px;
-    }   
+    }
+    footer{
+        margin: 0;
+        padding: 0.2rem 0 0.2rem 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+    .creditos{
+        justify-content: center;
+    }
 }
 
 /* Tablets */
@@ -125,5 +134,8 @@
     }
     button #icon{
         display: inline;
+    }
+    #icone__github{
+        width: 40px;
     }
 }

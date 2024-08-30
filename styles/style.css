@@ -127,4 +127,25 @@ button:hover{
     color: var(--cor-fonte-cinza);
 }
 
+footer{
+    margin: 1.5rem 1rem 0 1rem;
+    padding: 0.5rem;
+    width: 21ch;
+    border-radius: var(--arredondamento);
+    font-size: 0.7rem;
+    color: white;
+    background-color: var(--cor-destaque);
+}
+.creditos{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#icone__github{
+    margin: 0 0 0 0.5rem;
+}
+
 
