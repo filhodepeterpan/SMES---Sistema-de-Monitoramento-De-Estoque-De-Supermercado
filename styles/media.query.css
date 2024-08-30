@@ -7,7 +7,7 @@
         padding: 0;
     }
     body{
-        font-size: 0.7rem;
+        font-size: 1.1rem;
     }
     .conteudo{
         display: flex;
@@ -17,6 +17,7 @@
         padding: 0.25rem 0 0.25rem 0.5rem;
     }
     button{
+        font-size: 1rem;
         background-color: var(--cor-destaque);
         color: #ffffff;
     }
@@ -66,7 +67,7 @@
         padding: 0;
     }
     #situacao__de__estoque{
-        font-size: 1rem;
+        font-size: 1.6rem;
         text-align: center;
         font-weight: 600;
     }
