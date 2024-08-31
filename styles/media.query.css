@@ -37,6 +37,7 @@
         border: none;
     }
     nav{
+        text-align: center;
         align-items: center;
     }
     #titulo{
@@ -63,7 +64,7 @@
         padding-bottom: 3rem;
     }
     #relatorio__nome{
-        font-size: 1rem;
+        font-size: 1.15rem;
         padding: 0;
     }
     #situacao__de__estoque{
@@ -83,8 +84,9 @@
         width: 50px;
     }
     footer{
+        position: relative;
         margin: 0;
-        padding: 0.2rem 0 0.2rem 0;
+        padding: 0.4rem 0 0.4rem 0;
         width: 100%;
         border-radius: 0px;
     }
