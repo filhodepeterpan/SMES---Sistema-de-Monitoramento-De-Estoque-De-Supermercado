@@ -6,7 +6,7 @@ function verificaEstoque(){
     const quantidadeMinima = parseInt(document.getElementById("quantidadeMinima").value);
     const urgencia = document.getElementById("urgencia").value;
     
-    let urgenciaDeclarada = (urgencia == "V" || urgencia == "v") ? "SIM":"NÃO";
+    const urgenciaDeclarada = (urgencia == "V" || urgencia == "v") ? "SIM":"NÃO";
     let situacaoEstoque = "";
     let classificacao = "";
 

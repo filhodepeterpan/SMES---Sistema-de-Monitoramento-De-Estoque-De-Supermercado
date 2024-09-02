@@ -1,10 +1,10 @@
 let modoEscuro = false;
-let iconePerfilPadrao = document.getElementById("foto__de__perfil");
-let iconePerfilEscuro = document.getElementById("foto__de__perfil__escuro");
-let botaoIcone = document.querySelector("button #icon");
-let botaoTexto = document.querySelector("button #text");
 
 function ativaModoEscuro() {
+    const iconePerfilPadrao = document.getElementById("foto__de__perfil");
+    const iconePerfilEscuro = document.getElementById("foto__de__perfil__escuro");
+    const botaoTexto = document.querySelector("button #text");
+
     if (!modoEscuro){
         document.documentElement.style.setProperty('--cor-bg', '#121212');
         document.documentElement.style.setProperty('--cor-constrate-bg', '#1d1d1d');
